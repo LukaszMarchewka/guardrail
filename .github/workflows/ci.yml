@@ -12,7 +12,7 @@ jobs:
       matrix:
         java: [ '15' ]
         scala: [
-            { version: '2.12.12', bincompat: '2.12' }
+            { version: '2.12.13', bincompat: '2.12' }
           ]
     steps:
     - uses: actions/checkout@v2
@@ -41,7 +41,7 @@ jobs:
       matrix:
         java: [ '8', '11', '13', '14', '15' ]
         scala: [
-            { version: '2.12.12', bincompat: '2.12' }
+            { version: '2.12.13', bincompat: '2.12' }
           ]
     steps:
     - uses: actions/checkout@v2
@@ -71,7 +71,7 @@ jobs:
       matrix:
         java: [ '8', '15' ]
         scala: [
-            { version: '2.12.12', bincompat: '2.12' },
+            { version: '2.12.13', bincompat: '2.12' },
             { version: '2.13.4', bincompat: '2.13' }
           ]
         framework: [
